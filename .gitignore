@@ -1,0 +1,24 @@
+# Xcode 构建产物 / 本机缓存
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.moved-aside
+*.hmap
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# 本机静态校验临时目录
+.swiftbuild/
+.swiftcheck/
+
+# macOS
+.DS_Store
